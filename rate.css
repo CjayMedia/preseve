@@ -1,0 +1,171 @@
+/* poppins styling */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;700;900&display=swap');
+
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    --main-color :#000;
+    --primary-color:#fff;
+}
+
+.re{ width: 100%;
+     
+}
+.re .we {  background-color: var(--main-color);
+    padding: 2% 2% 1% 1%; 
+    text-align: end; 
+    list-style-type: none; } 
+.re .to, .re .come {  display:inline-block;
+}
+
+ /* another section */
+.re .to a, .re .come a { color: antiquewhite;   }
+
+.re .to a:hover, .re .come a:hover {background-color: aliceblue; color:red;   }
+ 
+.to{ padding:0% 2%}
+.home { background-color: orangered;}
+
+/* banner */
+section .img-container{
+}
+section .container{
+    width: 100%;
+    height: 100%;
+
+}
+
+section .container .img{
+    background: url(/assets/img/schl.jpg);
+    width: 50%;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: 0 50%;
+    opacity: 80%; 
+   position: absolute;
+}
+
+section .container .bg-dark{
+    background-color: darkcyan;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+section .container h1{
+    font-size: 7.5rem;
+    text-align: start;
+    position: absolute;
+    color: maroon;
+}
+
+section .container .img .img-content{
+    position: absolute;
+    color:var(--main-color) ;
+    top: 30%;
+    font: 2rem sans-serif;
+}
+
+
+section .container .img .img-content h3{
+    
+    color: rgb(31, 101, 229);
+}
+
+section .container .img .img-content p{
+     
+}
+
+
+section .container .img .img-content .p2{
+    text-transform: uppercase;
+}
+
+
+
+.tab  {
+    border: .1rem solid red;
+    margin: 14.1% auto auto 50%;
+    width: 50%;
+    height: 40vh;
+    position: relative;
+    
+    
+}
+section .image{
+   
+
+}
+
+
+section .tab .image img{
+    width: 100%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative; 
+    display: grid;
+    display: inline-block;
+    
+}
+
+section .tab .imagee img{
+     
+    position: fixed; 
+
+}
+
+/* another section */
+nav{ }
+nav ul { text-decoration: none;
+    text-align: right; }
+
+nav ul li {text-decoration:none; 
+    text-align: center; 
+    display: inline-block;
+     padding: 0% 3%;}
+nav ul li a:hover {background-color: rgb(124, 91, 6);}
+
+/*another  */
+.wel {background-color: darkcyan;}
+nav p{text-align: center; }
+.wel .wer.qwe{ }
+
+.wel .wer div{display: block; }
+
+.wel .wer div .qw{padding: 2rem 2rem; }
+
+section {background-color: darkcyan;
+    text-align: center;
+    height: 70vh;} 
+
+section .intro{
+
+}
+section .form-content form{ 
+    margin: 0 auto;
+    
+}
+
+section .form-content form input {
+    display: block;
+    margin: .5rem auto;
+    background: transparent;
+    
+    width: 50%;
+    height: 5vh;
+
+}
+section .form-content form textarea{
+    display: block;
+    margin: .5rem auto; 
+    width: 50%;
+    height: 60%;
+
+}
